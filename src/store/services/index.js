@@ -3,8 +3,8 @@ import axios from 'axios';
 export const services = {
   getImages: (product) => {
     const params = {
-      key: '',
-      cx: '',
+      key: 'AIzaSyAxjmQpgYCKAjENdHO5ghNOzWNtjPI12cs',
+      cx: '627996d91d0e5e580',
       searchType: 'image',
       lr: 'lang_pt',
       num: 1,
