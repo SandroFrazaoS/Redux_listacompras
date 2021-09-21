@@ -2,7 +2,7 @@ import React from 'react';
 
 const ListFooter = (props) => (
   <div className="list-footer ">
-    <p>{props.date}</p>
+    <p>01/01/2019</p>
     <p>{props.total}</p>
   </div>
 );

@@ -6,7 +6,7 @@ import Button from '@material-ui/core/Button';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-import { Creators as FormActions } from '../store/action/form';
+import { Creators as FormActions } from '../store/actions/form';
 
 const units = ['Quilos', 'Litros', 'Unidades'];
 

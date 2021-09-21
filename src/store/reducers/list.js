@@ -1,7 +1,5 @@
 import { createSelector } from 'reselect'
-//import uuidv1 from 'uuid/v1';
-import { v1 as uuidv1 } from 'uuid';
-
+import uuidv1 from 'uuid/v1';
 import { Types } from '../actions/list';
 
 const initialState = {

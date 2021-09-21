@@ -6,6 +6,9 @@
 # testing
 /coverage
 
+# API KEY
+api-key.js
+
 # production
 /build
 

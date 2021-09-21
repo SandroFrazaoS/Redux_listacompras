@@ -1,10 +1,11 @@
 import axios from 'axios';
+import {API_KEY, API_CX} from './api-Key'
 
 export const services = {
   getImages: (product) => {
     const params = {
-      key: 'AIzaSyAxjmQpgYCKAjENdHO5ghNOzWNtjPI12cs',
-      cx: '627996d91d0e5e580',
+      key: API_KEY,
+      cx: API_CX,
       searchType: 'image',
       lr: 'lang_pt',
       num: 1,

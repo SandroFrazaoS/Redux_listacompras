@@ -11,13 +11,6 @@ const localStorageState = loadState();
 const sagaMiddleware = createSagaMiddleware();
 const middlewares = [sagaMiddleware];
 
-/*
-const store = createStore(reducers, window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ && window.__REDUX_DEVTOOLS_EXTENSION_())
-console.log('****', store.getState())
-store.dispatch(( { type: 'ADD_PRODUCT', list: 'mes', product: { name: 'cafe'}}))
-console.log('****', store.getState());
-*/
-
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(reducers, localStorageState, composeEnhancers(
   applyMiddleware(...middlewares)
